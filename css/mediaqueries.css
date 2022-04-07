@@ -1,0 +1,144 @@
+@media screen and (max-width: 930px) {
+
+    /*NAVBAR*/
+
+    .navbar{
+        position: relative;
+        padding-top: 20px;
+    }
+    .instagram{
+        display: none;
+    }
+    .menuhamburguesa{
+        display: block;
+    }
+    .nav-menu-item{
+        display: none;
+    }
+    .logo{
+        max-width: 50px;
+        height: 50px;
+        padding: 0px 20px;
+        line-height: 60px;
+    }
+
+    /*HOME*/
+    .home{
+        width: auto;
+    }
+
+    .home .contenido{
+        grid-column: 2/8;
+        grid-row: 3/8;
+    }
+    .titulohome {
+        font-size: 40px;
+        text-align: center;
+    }
+    .descripcionhome {
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    /*TITULOS de todas las paginas menos home*/
+    .titulo { 
+        font-size: 15px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    /*Pagina Nosotros*/
+    .profesionales .caja1 {
+        font-size: 1rem;
+        border-radius: 5px;
+        border: solid 2px;
+    }
+    .profesionales .caja2{
+        font-size: 1rem;
+        border-radius: 5px;
+        border: solid 2px;
+        padding: 5px;
+    }
+
+    .instalaciones{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+
+    /*Pagina de Tratamientos*/
+.tratamientos1 {
+    max-width: 250px;
+    padding: 12px;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    }
+.tratamientos2 {
+    max-width: 250px;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 300px;
+    margin-right: 2px;
+    }
+.tratamientos1__titulo {
+    font-size: 1rem;
+    }
+.tratamientos2__titulo {
+    font-size: 1rem;
+    }
+.tratamientos1__descripcion {
+    font-size: 10px;
+    line-height: 20px;
+    }
+.tratamientos2__descripcion {
+    font-size: 10px;
+    line-height: 20px;
+    }
+
+
+/*Pagina Obras Sociales*/
+.lista {
+    font-size: 15px;
+    }
+
+
+/*Pagina Ubicacion y Contacto */
+
+#ubicont{
+    padding: 5px;
+    grid-gap: 5px;
+    font-size: 10px;
+    }
+.mapa{
+    width: 150;
+    height: 100;
+    }
+
+    .telefono{
+    width: 25px;
+    }
+
+    .horario{
+    width: 25px;
+    }
+
+/*Pie de pagina de todo el sitio*/
+.navpie {
+    position: relative;
+    }
+.nav-menu-item-pie{
+    font-size: 10px;
+    margin: 0 12px;
+    line-height: 40px;
+    } 
+.footer-datos{
+    line-height: 15px;
+    font-size: 7px;
+    }
+
+}
