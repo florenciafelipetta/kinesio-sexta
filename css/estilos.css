@@ -67,7 +67,7 @@
     padding: 0px 40px;
     line-height: 80px;
     animation-name: rotar_logo;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-delay: 3s;
 }
 @keyframes rotar_logo {
