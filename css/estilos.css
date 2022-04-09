@@ -66,6 +66,20 @@
     height: 70px;
     padding: 0px 40px;
     line-height: 80px;
+    animation-name: rotar_logo;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+@keyframes rotar_logo {
+    0%{
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateY(180);
+    }
 }
 .instagram{
     padding-top: 6px;
