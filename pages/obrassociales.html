@@ -9,76 +9,109 @@
     <!--Hoja de estilos-->
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="../css/mediaqueries.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="../libs/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.min.css">
 </head>
 
 <body id="fondo2">
     <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="../img/logo3.png" alt="logo" class="logo navbar-link" width="30px" height="70px"/></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/tratamientos.html">Tratamientos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/obrassociales.html">Obras Sociales</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/ubicacionycontacto.html">Ubicacion y Contacto</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!--
         <nav class="navbar">
-            <a href="../index.html" ><img src="../img/logo3.png" alt="logo" class="logo navbar-link"/></a>
+            <a href="index.html" ><img src="img/logo3.png" alt="logo" class="logo navbar-link"/></a>
             <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="../index.html" class="nav-menu-link navbar-link">HOME</a></li>
-                <li class="nav-menu-item"><a href="../pages/nosotros.html" class="nav-menu-link navbar-link">NOSOTROS</a></li>
-                <li class="nav-menu-item"><a href="../pages/tratamientos.html" class="nav-menu-link navbar-link">TRATAMIENTOS</a></li>
-                <li class="nav-menu-item"><a href="../pages/obrassociales.html" class="nav-menu-link navbar-link">OBRAS SOCIALES</a></li>
-                <li class="nav-menu-item"><a href="../pages/ubicacionycontacto.html" class="nav-menu-link navbar-link">UBICACION Y CONTACTO</a></li>
-                <a href="https://www.instagram.com/kinesiologiasexta/" class="logo instagram navbar-link"><img src="../img/instagramnav.png" width="20px"></a>
-                <a class="menuhamburguesa"><img src="../img/menuhamburguesa.png" width="40px"></a>
+                <li class="nav-menu-item"><a href="index.html" class="nav-menu-link navbar-link">HOME</a></li>
+                <li class="nav-menu-item"><a href="pages/nosotros.html" class="nav-menu-link navbar-link">NOSOTROS</a></li>
+                <li class="nav-menu-item"><a href="pages/tratamientos.html" class="nav-menu-link navbar-link">TRATAMIENTOS</a></li>
+                <li class="nav-menu-item"><a href="pages/obrassociales.html" class="nav-menu-link navbar-link">OBRAS SOCIALES</a></li>
+                <li class="nav-menu-item"><a href="pages/ubicacionycontacto.html" class="nav-menu-link navbar-link">UBICACION Y CONTACTO</a></li>
+                <a href="https://www.instagram.com/kinesiologiasexta/" class="logoinstagram navbar-link"><img src="img/instagramnav.png" width="20px"></a>
+                <a class="menuhamburguesa"><img src="img/menuhamburguesa.png" width="40px"></a>
             </ul>
         </nav>
+        -->
     </header>
 
     <main>
         <h1 class="titulo">OBRAS SOCIALES</h1>
-        <table class="lista">
-            <td>
-                <ul>
-                    <li>ACA SALUD</li>
-                    <li>A.M.F.F.A</li>
-                    <li>A.P.M</li>
-                    <li>AGUA Y ENERGIA</li>
-                    <li>BIENESTAR SALUD</li>
-                    <li>CAJA FORENSE</li>
-                    <li>CIMESA</li>
-                    <li>DAMSU</li>
-                    <li>DASUTEN</li>
-                    <li>DIARIOS Y REVISTAS</li>
-                    <li>SERES S.A</li>
-                    <li>SWISS MEDICAL / DOCTHOS</li>
-                </ul>
-            </td>
-
-            <td>
-                <ul>
-                    <li>EMPLEADOS DE FARMACIA</li>
-                    <li>FEDERADA SALUD</li>
-                    <li>HOPE</li>
-                    <li>I.O.S.E</li>
-                    <li>JERAQUICOS SALUD</li>
-                    <li>LIDERART</li>
-                    <li>MEDICUS</li>
-                    <li>OMINT</li>
-                    <li>O.S.SEGUROS</li>
-                    <li>O.S.D.I.P.P</li>
-                    <li>SCIS S.A</li>
-                </ul>
-            </td>
-            
-            <td>
-                <ul>
-                    <li>O.S.D.O.P</li>
-                    <li>O.P.D.E.A</li>
-                    <li>OSEP</li>
-                    <li>O.S.J.E.R.A</li>
-                    <li>PASTELEROS Y AFINES</li>
-                    <li>PERSONAL DE FARMACIA</li>
-                    <li>PODER JUDICIAL</li>
-                    <li>PREVENCION SALUD</li>
-                    <li>SADAIC</li>
-                    <li>SANCOR SALUD</li>
-                    <li>UNION PERSONAL</li>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="item col-4">
+                    <ul>
+                        <li>ACA SALUD</li>
+                        <li>A.M.F.F.A</li>
+                        <li>A.P.M</li>
+                        <li>AGUA Y ENERGIA</li>
+                        <li>BIENESTAR SALUD</li>
+                        <li>CAJA FORENSE</li>
+                        <li>CIMESA</li>
+                        <li>DAMSU</li>
+                        <li>DASUTEN</li>
+                        <li>DIARIOS Y REVISTAS</li>
+                        <li>SERES S.A</li>
+                        <li>SWISS MEDICAL / DOCTHOS</li>
                     </ul>
-            </td>
-        </table>
+                </div>
+
+                <div class="item col-4">
+                    <ul>
+                        <li>EMPLEADOS DE FARMACIA</li>
+                        <li>FEDERADA SALUD</li>
+                        <li>HOPE</li>
+                        <li>I.O.S.E</li>
+                        <li>JERAQUICOS SALUD</li>
+                        <li>LIDERART</li>
+                        <li>MEDICUS</li>
+                        <li>OMINT</li>
+                        <li>O.S.SEGUROS</li>
+                        <li>O.S.D.I.P.P</li>
+                        <li>SCIS S.A</li>
+                    </ul>
+                </div>
+            
+                <div class="item col-4">
+                    <ul>
+                        <li>O.S.D.O.P</li>
+                        <li>O.P.D.E.A</li>
+                        <li>OSEP</li>
+                        <li>O.S.J.E.R.A</li>
+                        <li>PASTELEROS Y AFINES</li>
+                        <li>PERSONAL DE FARMACIA</li>
+                        <li>PODER JUDICIAL</li>
+                        <li>PREVENCION SALUD</li>
+                        <li>SADAIC</li>
+                        <li>SANCOR SALUD</li>
+                        <li>UNION PERSONAL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
@@ -96,5 +129,7 @@
             <p>DERECHOS RESERVADOS SOBRE TODO EL CONTENIDO AQUÍ PUBLICADO.</p>
         </div>
     </footer>
+    
+    <script src="../libs/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

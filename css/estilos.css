@@ -45,7 +45,7 @@
 }
 
 
-/*Cabecera de todo el sitio*/
+/*Cabecera de todo el sitio
 .header {
     background: linear-gradient(rgba(255, 255, 255, 0.986), rgb(63, 153, 206));
     height: 80px;
@@ -70,19 +70,8 @@
     animation-duration: 6s;
     animation-delay: 3s;
 }
-@keyframes rotar_logo {
-    0%{
-        transform: rotateY(0deg);
-    }
-    50%{
-        transform: rotateY(180deg);
-    }
-    100%{
-        transform: rotateY(180);
-    }
-}
-.instagram{
-    padding-top: 6px;
+.logoinstagram{
+    padding-top: 8px;
 }
 .menuhamburguesa{
     display: none;
@@ -109,6 +98,17 @@
 .nav-menu-link:hover{
     background-color: rgb(26,101,143);
     transition: 0.5s;
+}*/
+.navbar{
+    background: linear-gradient(rgba(255, 255, 255, 0.986), rgb(63, 153, 206));
+}
+.nav-item{
+    font-family: 'BarlowCondensed-Bold', sans-serif;
+    font-size: 20px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max-content;
+
 }
 
 
@@ -260,7 +260,7 @@ background-color: rgb(248, 137, 115);
 }
 
 
-/*Pagina Obras Sociales*/
+/*Pagina Obras Sociales
 .lista {
     font-family: 'Quicksand-Medium', sans-serif;
     color:rgb(44, 44, 44);
@@ -273,6 +273,7 @@ background-color: rgb(248, 137, 115);
     padding: 25px 25px;
     list-style-type: none;
 }
+*/
 
 
 /*Pagina Ubicacion y Contacto */
