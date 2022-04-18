@@ -37,81 +37,41 @@
 
 
 
-
-
 /*Fondo PAGINAS*/
 #fondo2 {
     background-color: #f8f8f8;
 }
 
 
-/*Cabecera de todo el sitio
-.header {
-    background: linear-gradient(rgba(255, 255, 255, 0.986), rgb(63, 153, 206));
-    height: 80px;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-.navbar {
-    display: flex;
-    justify-content: space-between;
-}
-.navbar-link{
-    text-decoration: none;
-    color: whitesmoke;
-}
-.logo{
-    max-width: 70px;
-    height: 70px;
-    padding: 0px 40px;
-    line-height: 80px;
-    animation-name: rotar_logo;
-    animation-duration: 6s;
-    animation-delay: 3s;
-}
-.logoinstagram{
-    padding-top: 8px;
-}
+/*Cabecera de todo el sitio*/
 .menuhamburguesa{
     display: none;
     font-size: 30px;
     cursor: pointer;
     line-height: 60px;
 }
-.nav-menu{
-    display: flex;
-    margin-right: 40px;
-    list-style: none;
-}
-.nav-menu-item {
-    font-family: 'BarlowCondensed-Bold', sans-serif;
-    font-size: 20px;
-    margin: 0 10px;
-    line-height: 80px;
-    width: max-content;
-}
-.nav-menu-link{
-    padding: 8px 12px;
-    border-radius: 3px;
-}
-.nav-menu-link:hover{
-    background-color: rgb(26,101,143);
-    transition: 0.5s;
-}*/
+
 .navbar{
     background: linear-gradient(rgba(255, 255, 255, 0.986), rgb(63, 153, 206));
+    display: flex;
+    justify-content: flex-end;
 }
+
 .nav-item{
     font-family: 'BarlowCondensed-Bold', sans-serif;
     font-size: 20px;
     margin: 0 10px;
-    line-height: 80px;
     width: max-content;
-
+    padding: 8px 12px;
+    border-radius: 3px;
 }
 
+.nav-item:hover{
+    background-color: rgb(193, 228, 248);
+    transition: 0.5s;
+}
 
+/*HOME*/
 .home {
     height: 70vh;
     background-image: url(../img/ilustracion-3d-render-columna-vertebral_.png);
@@ -122,6 +82,7 @@
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
 }
+
 .home .contenido{
     grid-column: 2/8;
     grid-row: 3/8;
@@ -199,7 +160,7 @@
 }
 
 .img:hover{
-    transform: scale(1.5)
+    transform: scale(1.5);
 }
 
 
@@ -260,7 +221,7 @@ background-color: rgb(248, 137, 115);
 }
 
 
-/*Pagina Obras Sociales
+/*Pagina Obras Sociales*/
 .lista {
     font-family: 'Quicksand-Medium', sans-serif;
     color:rgb(44, 44, 44);
@@ -271,9 +232,9 @@ background-color: rgb(248, 137, 115);
 }
 .lista td ul {
     padding: 25px 25px;
-    list-style-type: none;
+    list-style-type:none;
 }
-*/
+
 
 
 /*Pagina Ubicacion y Contacto */
