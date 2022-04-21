@@ -1,0 +1,170 @@
+@media screen and (min-width:200px) and (max-width: 900px) {
+
+    /*Home*/
+    .home{
+        height: 60vh;
+        background-image: none;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4,1fr);
+            .contenido{
+                grid-column: 2/4;
+                grid-row: 3/3;
+        }
+    }
+    
+    .titulohome{
+        font-size: 30px;
+    }
+    
+    .descripcionhome{
+        font-size: 15px;
+    }
+    
+    
+    /*Titulos de todas las paginas menos Home*/
+    .titulo { 
+        font-size: 15px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    
+    /*Pagina Nosotros*/
+    .profesionales{
+    
+        .caja1 {
+            font-size: 1rem;
+            border-radius: 5px;
+            border: solid 2px;
+        }
+        .caja2{
+            font-size: 1rem;
+            border-radius: 5px;
+            border: solid 2px;
+            padding: 5px;
+        }
+    }
+    
+    .instalaciones{
+        grid-template-columns: repeat(1,4fr);
+        padding: 10px;
+        grid-gap: 50px;
+    }
+    
+    .img{
+        transition: none;
+            &:hover{
+                transform: none;
+            }
+    }
+    
+    
+    /*Pagina de Tratamientos*/
+    .tratamientos1 {
+        max-width: 250px;
+        padding: 12px;
+        border-radius: 2px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 100px;
+    
+            .titulotrat{
+                font-size: 1rem;
+        }
+    
+            .descripciontrat {
+                font-size: 10px;
+                line-height: 20px;
+        }
+    }
+    
+    .tratamientos2 {
+        max-width: 250px;
+        margin: 12px;
+        padding: 12px;
+        border-radius: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 100px;
+        margin-right: 2px;
+    
+            .titulotrat{
+                font-size: 1rem;
+        }
+            .descripciontrat{
+                font-size: 10px;
+                line-height: 20px;
+        }
+    }
+    
+    
+    /*Pagina Obras Sociales*/
+    .lista{
+        font-size: 10px;
+    }
+    
+    
+    /*Pagina Ubicacion y Contacto */
+    #ubicont{
+        padding: 5px;
+        grid-gap: 5px;
+        font-size: 10px;
+    }
+    
+    .mapa{
+        width: 150;
+        height: 100;
+    }
+    
+    .telefono{
+        width: 25px;
+    }
+    
+    .horario{
+        width: 25px;
+    }
+    
+    /*Pie de pagina de todo el sitio*/
+    .navpie {
+        position: relative;
+    }
+    
+    .nav-menu-item-pie{
+        font-size: 10px;
+        margin: 0 12px;
+        line-height: 40px;
+    } 
+    
+    .footer-datos{
+        line-height: 15px;
+        font-size: 7px;
+    }
+    }
+    
+    @media screen and (min-width:901px) and (max-width: 1200px) {
+    
+    /*Home*/
+    .home{
+        height: 60vh;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4,1fr);
+    
+        .contenido{
+            grid-column: 2/4;
+            grid-row: 3/3;
+        }
+    
+    }
+    
+    .titulohome{
+        font-size: 30px;
+    }
+    
+    .descripcionhome{
+        font-size: 15px;
+    }
+    }
+    
+    
+    
