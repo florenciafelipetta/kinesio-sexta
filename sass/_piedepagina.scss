@@ -1,0 +1,42 @@
+/*Pie de pagina de todo el sitio*/
+.footer {
+    background-color: rgb(88, 99, 117);
+    height: 170px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0; 
+    width: 100%;
+}
+
+.navpie {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.nav-link-pie{
+    text-decoration: none;
+    color: rgb(24, 21, 21);
+}
+
+.nav-menu-pie {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu-item-pie{
+    font-family: $font-nav-item, sans-serif;
+    font-size: 20px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max-content;
+} 
+
+.footer-datos{
+    color:white;
+    font-family: $font-lista, sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+}

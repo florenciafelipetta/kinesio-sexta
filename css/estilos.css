@@ -1,8 +1,3 @@
-* {
-  margin: 0%;
-  padding: 0%;
-}
-
 @font-face {
   font-family: "Quicksand-Bold";
   src: url(../assets/Quicksand-Bold.ttf);
@@ -31,7 +26,6 @@
   font-family: "BarlowCondensed-Medium";
   src: url(../assets/BarlowCondensed-Medium.ttf);
 }
-
 @media screen and (min-width: 200px) and (max-width: 900px) {
   /*Home*/
   .home {
@@ -183,34 +177,65 @@
     font-size: 15px;
   }
 }
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url(../assets/Quicksand-Bold.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Medium";
+  src: url(../assets/Quicksand-Medium.ttf);
+}
+@font-face {
+  font-family: "PTSans-Bold";
+  src: url(../assets/PTSans-Bold.ttf);
+}
+@font-face {
+  font-family: "PTSans-Regular";
+  src: url(../assets/PTSans-Regular.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-Bold";
+  src: url(../assets/BarlowCondensed-Bold.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-SemiBold";
+  src: url(../assets/BarlowCondensed-SemiBold.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-Medium";
+  src: url(../assets/BarlowCondensed-Medium.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url(../assets/Quicksand-Bold.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Medium";
+  src: url(../assets/Quicksand-Medium.ttf);
+}
+@font-face {
+  font-family: "PTSans-Bold";
+  src: url(../assets/PTSans-Bold.ttf);
+}
+@font-face {
+  font-family: "PTSans-Regular";
+  src: url(../assets/PTSans-Regular.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-Bold";
+  src: url(../assets/BarlowCondensed-Bold.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-SemiBold";
+  src: url(../assets/BarlowCondensed-SemiBold.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-Medium";
+  src: url(../assets/BarlowCondensed-Medium.ttf);
+}
 /*Fondo PAGINAS*/
 #fondo2 {
   background-color: #f8f8f8;
-}
-
-/*Barra Navegacion del header*/
-.menuhamburguesa {
-  display: none;
-  font-size: 30px;
-  cursor: pointer;
-  line-height: 60px;
-}
-
-.navbar {
-  background: linear-gradient(rgba(255, 255, 255, 0.986), rgb(63, 153, 206));
-}
-
-.nav-item {
-  font-family: "BarlowCondensed-Bold", sans-serif;
-  font-size: 20px;
-  margin: 0 10px;
-  width: max-content;
-  padding: 8px 12px;
-  border-radius: 3px;
-}
-.nav-item:hover {
-  background-color: rgb(193, 228, 248);
-  transition: 0.5s;
 }
 
 /*HOME*/
@@ -244,16 +269,35 @@
   text-align: center;
 }
 
-/*Titulos de todas las paginas menos home*/
-.titulo {
-  font-family: "BarlowCondensed-SemiBold", sans-serif;
-  color: rgb(41, 39, 128);
-  font-size: 30px;
-  padding-left: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url(../assets/Quicksand-Bold.ttf);
 }
-
+@font-face {
+  font-family: "Quicksand-Medium";
+  src: url(../assets/Quicksand-Medium.ttf);
+}
+@font-face {
+  font-family: "PTSans-Bold";
+  src: url(../assets/PTSans-Bold.ttf);
+}
+@font-face {
+  font-family: "PTSans-Regular";
+  src: url(../assets/PTSans-Regular.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-Bold";
+  src: url(../assets/BarlowCondensed-Bold.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-SemiBold";
+  src: url(../assets/BarlowCondensed-SemiBold.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-Medium";
+  src: url(../assets/BarlowCondensed-Medium.ttf);
+}
+/*MAPS*/
 /*Pagina Nosotros*/
 .profesionales {
   display: grid;
@@ -291,6 +335,11 @@
   grid-gap: 10px;
 }
 
+/*EXTEND*/
+.foto1, .foto4, .foto3, .foto2 {
+  padding: 20px;
+}
+
 .img {
   width: 100%;
   height: 100%;
@@ -301,6 +350,77 @@
   transform: scale(1.5);
 }
 
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url(../assets/Quicksand-Bold.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Medium";
+  src: url(../assets/Quicksand-Medium.ttf);
+}
+@font-face {
+  font-family: "PTSans-Bold";
+  src: url(../assets/PTSans-Bold.ttf);
+}
+@font-face {
+  font-family: "PTSans-Regular";
+  src: url(../assets/PTSans-Regular.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-Bold";
+  src: url(../assets/BarlowCondensed-Bold.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-SemiBold";
+  src: url(../assets/BarlowCondensed-SemiBold.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-Medium";
+  src: url(../assets/BarlowCondensed-Medium.ttf);
+}
+/*Pagina Obras Sociales*/
+.lista {
+  font-family: "Quicksand-Medium", sans-serif;
+  color: rgb(44, 44, 44);
+  font-size: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.lista td ul {
+  padding: 25px 25px;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url(../assets/Quicksand-Bold.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Medium";
+  src: url(../assets/Quicksand-Medium.ttf);
+}
+@font-face {
+  font-family: "PTSans-Bold";
+  src: url(../assets/PTSans-Bold.ttf);
+}
+@font-face {
+  font-family: "PTSans-Regular";
+  src: url(../assets/PTSans-Regular.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-Bold";
+  src: url(../assets/BarlowCondensed-Bold.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-SemiBold";
+  src: url(../assets/BarlowCondensed-SemiBold.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-Medium";
+  src: url(../assets/BarlowCondensed-Medium.ttf);
+}
+/*MIXIN*/
 /*Pagina de Tratamientos*/
 .tratamientos1 {
   max-width: 500px;
@@ -358,20 +478,34 @@
   line-height: 40px;
 }
 
-/*Pagina Obras Sociales*/
-.lista {
-  font-family: "Quicksand-Medium", sans-serif;
-  color: rgb(44, 44, 44);
-  font-size: 20px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url(../assets/Quicksand-Bold.ttf);
 }
-.lista td ul {
-  padding: 25px 25px;
-  list-style-type: none;
+@font-face {
+  font-family: "Quicksand-Medium";
+  src: url(../assets/Quicksand-Medium.ttf);
 }
-
+@font-face {
+  font-family: "PTSans-Bold";
+  src: url(../assets/PTSans-Bold.ttf);
+}
+@font-face {
+  font-family: "PTSans-Regular";
+  src: url(../assets/PTSans-Regular.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-Bold";
+  src: url(../assets/BarlowCondensed-Bold.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-SemiBold";
+  src: url(../assets/BarlowCondensed-SemiBold.ttf);
+}
+@font-face {
+  font-family: "BarlowCondensed-Medium";
+  src: url(../assets/BarlowCondensed-Medium.ttf);
+}
 /*Pagina Ubicacion y Contacto */
 #ubicont {
   color: rgb(26, 101, 143);
@@ -453,7 +587,6 @@
   margin: 0 10px;
   line-height: 80px;
   width: max-content;
-  text-decoration: none;
 }
 
 .footer-datos {
@@ -462,6 +595,46 @@
   text-align: center;
   line-height: 30px;
   font-size: 15px;
+}
+
+/*Barra Navegacion del header*/
+.menuhamburguesa {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  line-height: 60px;
+}
+
+.navbar {
+  background: linear-gradient(rgba(255, 255, 255, 0.986), rgb(63, 153, 206));
+}
+
+.nav-item {
+  font-family: "BarlowCondensed-Bold", sans-serif;
+  font-size: 20px;
+  margin: 0 10px;
+  width: max-content;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+.nav-item:hover {
+  background-color: rgb(193, 228, 248);
+  transition: 0.5s;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*Titulos de todas las paginas menos home*/
+.titulo {
+  font-family: "BarlowCondensed-SemiBold", sans-serif;
+  color: rgb(41, 39, 128);
+  font-size: 30px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

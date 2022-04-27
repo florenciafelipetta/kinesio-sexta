@@ -1,0 +1,38 @@
+@import "variables";
+
+/*Fondo PAGINAS*/
+#fondo2 {
+    background-color: #f8f8f8;
+}
+
+/*HOME*/
+.home {
+    height: 70vh;
+    background-image: url(../img/ilustracion-3d-render-columna-vertebral_.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+
+        .contenido{
+            grid-column: 2/8;
+            grid-row: 3/8;
+    }
+}
+
+.titulohome {
+    font-family: $font-titulohome, sans-serif;
+    color: rgb(26,101,143);
+    text-shadow: rgb(79, 117, 139) 0.1em 0.1em 0.2em;
+    font-size: 90px;
+    text-align: center;
+}
+
+.descripcionhome {
+    font-family: $font-descripcionhome, sans-serif;
+    color: rgb(63, 153, 206);
+    font-size: $tamano-titulo;
+    text-align: center;
+}

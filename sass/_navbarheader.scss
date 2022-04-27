@@ -1,0 +1,25 @@
+/*Barra Navegacion del header*/
+.menuhamburguesa{
+    display: none;
+    font-size: $tamano-titulo;
+    cursor: pointer;
+    line-height: 60px;
+}
+
+.navbar{
+    background: linear-gradient(rgba(255, 255, 255, 0.986), rgb(63, 153, 206));
+}
+
+.nav-item{
+    font-family: $font-nav-item, sans-serif;
+    font-size: 20px;
+    margin: 0 10px;
+    width: max-content;
+    padding: 8px 12px;
+    border-radius: 3px;
+
+        &:hover{
+            background-color: rgb(193, 228, 248);
+            transition: 0.5s;
+        }
+}
