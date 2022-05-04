@@ -109,17 +109,17 @@
     margin-right: 2px;
   }
   .tratamientos2 .titulotrat {
-    font-size: 1rem;
+    font-size: 20px;
   }
   .tratamientos2 .descripciontrat {
-    font-size: 10px;
+    font-size: 15px;
     line-height: 20px;
   }
 
   /*Pagina Obras Sociales*/
   .lista {
     flex-direction: column;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   /*Pagina Ubicacion y Contacto */
@@ -128,7 +128,7 @@
     grid-template-rows: repeat(7, 1fr);
     padding: 5px;
     grid-gap: 5px;
-    font-size: 10px;
+    font-size: 25px;
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
@@ -180,14 +180,14 @@
   }
 
   .nav-menu-item-pie {
-    font-size: 10px;
+    font-size: 15px;
     margin: 0 12px;
     line-height: 40px;
   }
 
   .footer-datos {
     line-height: 15px;
-    font-size: 7px;
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 901px) and (max-width: 1200px) {
@@ -377,17 +377,17 @@
     margin-right: 2px;
   }
   .tratamientos2 .titulotrat {
-    font-size: 1rem;
+    font-size: 20px;
   }
   .tratamientos2 .descripciontrat {
-    font-size: 10px;
+    font-size: 15px;
     line-height: 20px;
   }
 
   /*Pagina Obras Sociales*/
   .lista {
     flex-direction: column;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   /*Pagina Ubicacion y Contacto */
@@ -396,7 +396,7 @@
     grid-template-rows: repeat(7, 1fr);
     padding: 5px;
     grid-gap: 5px;
-    font-size: 10px;
+    font-size: 25px;
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
@@ -448,14 +448,14 @@
   }
 
   .nav-menu-item-pie {
-    font-size: 10px;
+    font-size: 15px;
     margin: 0 12px;
     line-height: 40px;
   }
 
   .footer-datos {
     line-height: 15px;
-    font-size: 7px;
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 901px) and (max-width: 1200px) {
@@ -653,17 +653,17 @@
     margin-right: 2px;
   }
   .tratamientos2 .titulotrat {
-    font-size: 1rem;
+    font-size: 20px;
   }
   .tratamientos2 .descripciontrat {
-    font-size: 10px;
+    font-size: 15px;
     line-height: 20px;
   }
 
   /*Pagina Obras Sociales*/
   .lista {
     flex-direction: column;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   /*Pagina Ubicacion y Contacto */
@@ -672,7 +672,7 @@
     grid-template-rows: repeat(7, 1fr);
     padding: 5px;
     grid-gap: 5px;
-    font-size: 10px;
+    font-size: 25px;
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
@@ -724,14 +724,14 @@
   }
 
   .nav-menu-item-pie {
-    font-size: 10px;
+    font-size: 15px;
     margin: 0 12px;
     line-height: 40px;
   }
 
   .footer-datos {
     line-height: 15px;
-    font-size: 7px;
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 901px) and (max-width: 1200px) {
@@ -950,17 +950,17 @@
     margin-right: 2px;
   }
   .tratamientos2 .titulotrat {
-    font-size: 1rem;
+    font-size: 20px;
   }
   .tratamientos2 .descripciontrat {
-    font-size: 10px;
+    font-size: 15px;
     line-height: 20px;
   }
 
   /*Pagina Obras Sociales*/
   .lista {
     flex-direction: column;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   /*Pagina Ubicacion y Contacto */
@@ -969,7 +969,7 @@
     grid-template-rows: repeat(7, 1fr);
     padding: 5px;
     grid-gap: 5px;
-    font-size: 10px;
+    font-size: 25px;
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
@@ -1021,14 +1021,14 @@
   }
 
   .nav-menu-item-pie {
-    font-size: 10px;
+    font-size: 15px;
     margin: 0 12px;
     line-height: 40px;
   }
 
   .footer-datos {
     line-height: 15px;
-    font-size: 7px;
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 901px) and (max-width: 1200px) {
@@ -1204,17 +1204,17 @@
     margin-right: 2px;
   }
   .tratamientos2 .titulotrat {
-    font-size: 1rem;
+    font-size: 20px;
   }
   .tratamientos2 .descripciontrat {
-    font-size: 10px;
+    font-size: 15px;
     line-height: 20px;
   }
 
   /*Pagina Obras Sociales*/
   .lista {
     flex-direction: column;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   /*Pagina Ubicacion y Contacto */
@@ -1223,7 +1223,7 @@
     grid-template-rows: repeat(7, 1fr);
     padding: 5px;
     grid-gap: 5px;
-    font-size: 10px;
+    font-size: 25px;
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
@@ -1275,14 +1275,14 @@
   }
 
   .nav-menu-item-pie {
-    font-size: 10px;
+    font-size: 15px;
     margin: 0 12px;
     line-height: 40px;
   }
 
   .footer-datos {
     line-height: 15px;
-    font-size: 7px;
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 901px) and (max-width: 1200px) {
@@ -1502,17 +1502,17 @@
     margin-right: 2px;
   }
   .tratamientos2 .titulotrat {
-    font-size: 1rem;
+    font-size: 20px;
   }
   .tratamientos2 .descripciontrat {
-    font-size: 10px;
+    font-size: 15px;
     line-height: 20px;
   }
 
   /*Pagina Obras Sociales*/
   .lista {
     flex-direction: column;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   /*Pagina Ubicacion y Contacto */
@@ -1521,7 +1521,7 @@
     grid-template-rows: repeat(7, 1fr);
     padding: 5px;
     grid-gap: 5px;
-    font-size: 10px;
+    font-size: 25px;
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
@@ -1573,14 +1573,14 @@
   }
 
   .nav-menu-item-pie {
-    font-size: 10px;
+    font-size: 15px;
     margin: 0 12px;
     line-height: 40px;
   }
 
   .footer-datos {
     line-height: 15px;
-    font-size: 7px;
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 901px) and (max-width: 1200px) {
@@ -1611,10 +1611,10 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  padding-top: 30px;
+  padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
   grid-gap: 10px;
   justify-items: center;
 }
@@ -1649,6 +1649,98 @@
 .ubihijo3 {
   grid-column: 3/4;
   grid-row: 2/3;
+}
+
+#contact_form {
+  font-family: "Quicksand-Bold", sans-serif;
+  width: 400px;
+  height: auto;
+  margin: 5px auto;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(26, 101, 143);
+  margin-top: 5px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(26, 101, 143);
+  margin-top: 5px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: rgb(26, 101, 143);
+  border-color: rgb(26, 101, 143);
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+
+button p {
+  color: #fff;
+}
+
+span {
+  color: rgb(26, 101, 143);
+}
+
+.aviso {
+  font-size: 13px;
+  color: rgb(26, 101, 143);
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 15px;
+  color: rgb(26, 101, 143);
+}
+
+.p {
+  font-size: 14px;
+  color: rgb(26, 101, 143);
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
 }
 
 @font-face {
@@ -1762,17 +1854,17 @@
     margin-right: 2px;
   }
   .tratamientos2 .titulotrat {
-    font-size: 1rem;
+    font-size: 20px;
   }
   .tratamientos2 .descripciontrat {
-    font-size: 10px;
+    font-size: 15px;
     line-height: 20px;
   }
 
   /*Pagina Obras Sociales*/
   .lista {
     flex-direction: column;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   /*Pagina Ubicacion y Contacto */
@@ -1781,7 +1873,7 @@
     grid-template-rows: repeat(7, 1fr);
     padding: 5px;
     grid-gap: 5px;
-    font-size: 10px;
+    font-size: 25px;
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
@@ -1833,14 +1925,14 @@
   }
 
   .nav-menu-item-pie {
-    font-size: 10px;
+    font-size: 15px;
     margin: 0 12px;
     line-height: 40px;
   }
 
   .footer-datos {
     line-height: 15px;
-    font-size: 7px;
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 901px) and (max-width: 1200px) {
@@ -1899,7 +1991,6 @@
   top: 0;
   left: 0;
   bottom: 0;
-  width: 100%;
 }
 
 .navpie {
@@ -2073,17 +2164,17 @@
     margin-right: 2px;
   }
   .tratamientos2 .titulotrat {
-    font-size: 1rem;
+    font-size: 20px;
   }
   .tratamientos2 .descripciontrat {
-    font-size: 10px;
+    font-size: 15px;
     line-height: 20px;
   }
 
   /*Pagina Obras Sociales*/
   .lista {
     flex-direction: column;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   /*Pagina Ubicacion y Contacto */
@@ -2092,7 +2183,7 @@
     grid-template-rows: repeat(7, 1fr);
     padding: 5px;
     grid-gap: 5px;
-    font-size: 10px;
+    font-size: 25px;
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
@@ -2144,14 +2235,14 @@
   }
 
   .nav-menu-item-pie {
-    font-size: 10px;
+    font-size: 15px;
     margin: 0 12px;
     line-height: 40px;
   }
 
   .footer-datos {
     line-height: 15px;
-    font-size: 7px;
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 901px) and (max-width: 1200px) {
