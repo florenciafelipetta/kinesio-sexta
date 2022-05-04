@@ -47,6 +47,10 @@
     font-size: 15px;
   }
 
+  .contacto {
+    margin-left: 120px;
+  }
+
   /*Titulos de todas las paginas menos Home*/
   .titulo {
     font-size: 15px;
@@ -313,6 +317,10 @@
 
   .descripcionhome {
     font-size: 15px;
+  }
+
+  .contacto {
+    margin-left: 120px;
   }
 
   /*Titulos de todas las paginas menos Home*/
@@ -492,11 +500,11 @@
   max-width: 100%;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-rows: repeat(10, 1fr);
 }
 .home .contenido {
   grid-column: 2/8;
-  grid-row: 3/8;
+  grid-row: 2/10;
 }
 
 .titulohome {
@@ -511,6 +519,30 @@
   font-family: "PTSans-Regular", sans-serif;
   color: rgb(63, 153, 206);
   font-size: 30px;
+  text-align: center;
+}
+
+.turnos {
+  font-family: "BarlowCondensed-SemiBold", sans-serif;
+  color: rgb(26, 101, 143);
+  font-size: 25px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contacto {
+  color: #f8f8f8;
+  font-family: "BarlowCondensed-SemiBold", sans-serif;
+  background-color: rgb(26, 101, 143);
+  border-color: rgb(26, 101, 143);
+  border-style: solid 10px;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.bot {
   text-align: center;
 }
 
@@ -589,6 +621,10 @@
 
   .descripcionhome {
     font-size: 15px;
+  }
+
+  .contacto {
+    margin-left: 120px;
   }
 
   /*Titulos de todas las paginas menos Home*/
@@ -888,6 +924,10 @@
     font-size: 15px;
   }
 
+  .contacto {
+    margin-left: 120px;
+  }
+
   /*Titulos de todas las paginas menos Home*/
   .titulo {
     font-size: 15px;
@@ -1140,6 +1180,10 @@
 
   .descripcionhome {
     font-size: 15px;
+  }
+
+  .contacto {
+    margin-left: 120px;
   }
 
   /*Titulos de todas las paginas menos Home*/
@@ -1440,6 +1484,10 @@
     font-size: 15px;
   }
 
+  .contacto {
+    margin-left: 120px;
+  }
+
   /*Titulos de todas las paginas menos Home*/
   .titulo {
     font-size: 15px;
@@ -1697,7 +1745,7 @@ label {
   float: center;
 }
 
-button {
+.button {
   height: 45px;
   padding-left: 5px;
   padding-right: 5px;
@@ -1712,7 +1760,7 @@ button {
   cursor: pointer;
 }
 
-button p {
+.button p {
   color: #fff;
 }
 
@@ -1793,6 +1841,10 @@ h3 {
 
   .descripcionhome {
     font-size: 15px;
+  }
+
+  .contacto {
+    margin-left: 120px;
   }
 
   /*Titulos de todas las paginas menos Home*/
@@ -2010,6 +2062,7 @@ h3 {
 .nav-menu-pie {
   display: flex;
   list-style: none;
+  flex: wrap;
 }
 
 .nav-menu-item-pie {
@@ -2107,6 +2160,10 @@ h3 {
 
   .descripcionhome {
     font-size: 15px;
+  }
+
+  .contacto {
+    margin-left: 120px;
   }
 
   /*Titulos de todas las paginas menos Home*/

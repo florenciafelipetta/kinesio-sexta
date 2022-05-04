@@ -15,11 +15,11 @@
     max-width: 100%;
     display: grid;
     grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(8,1fr);
+    grid-template-rows: repeat(10,1fr);
 
         .contenido{
             grid-column: 2/8;
-            grid-row: 3/8;
+            grid-row: 2/10;
     }
 }
 
@@ -35,5 +35,28 @@
     font-family: $font-descripcionhome, sans-serif;
     color: rgb(63, 153, 206);
     font-size: $tamano-titulo;
+    text-align: center;
+}
+
+.turnos{
+    font-family: $font-titulos, sans-serif;
+    color: rgb(26,101,143);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+.contacto{
+    color: #f8f8f8;
+    font-family: $font-titulos, sans-serif;
+    background-color:  rgb(26,101,143); 
+    border-color:  rgb(26,101,143); 
+    border-style: solid 10px; 
+    border-radius: 10px;  
+    width: 100px;  
+    height: 40px; 
+    cursor: pointer;
+}
+
+.bot{
     text-align: center;
 }
