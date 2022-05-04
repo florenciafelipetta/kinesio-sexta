@@ -1989,7 +1989,7 @@ h3 {
 /*Pie de pagina de todo el sitio*/
 .footer {
   background-color: rgb(88, 99, 117);
-  height: 170px;
+  height: 250px;
   width: 100%;
   top: 0;
   left: 0;
@@ -2026,6 +2026,10 @@ h3 {
   text-align: center;
   line-height: 30px;
   font-size: 15px;
+}
+
+.instagram {
+  padding-bottom: 20px;
 }
 
 @font-face {
